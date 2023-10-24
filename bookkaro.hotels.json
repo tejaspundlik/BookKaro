@@ -1,0 +1,662 @@
+[
+  {
+    "_id": {
+      "$oid": "636a69bfce284ca9a8de9230"
+    },
+    "name": "Wassersport Apartments",
+    "type": "apartment",
+    "city": "berlin",
+    "address": "Brandensteinweg 4, Spandau, 13595 Berlin, Germany",
+    "distance": "200",
+    "photos": [
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1667918268/upload/hvpbe9k6ojps88xhah4y.jpg",
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1667918270/upload/z5w5kde3lirjrloeo5ok.jpg",
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1667918269/upload/tbrnjib21r4m4bjm244y.jpg",
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1667918268/upload/nkstayamwc3mlalswuag.jpg",
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1667918269/upload/osekbvojiuusos7dlhpp.jpg",
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1667918269/upload/ojd61f64eo1iusi4cwtw.jpg"
+    ],
+    "title": "Most chosen apartment",
+    "description": "Set in Berlin, Wassersport-Appartements am St\u00f6\u00dfensee provides accommodation 6 km from Messe Berlin and 9 km from Theatre and Comedy at Kurfuerstendamm. Complimentary WiFi is offered.",
+    "rooms": [
+      "636a78d8ce284ca9a8de96ac",
+      "636a78fcce284ca9a8de96b2",
+      "636a791ace284ca9a8de96b8"
+    ],
+    "cheapestPrice": 51,
+    "featured": true,
+    "__v": 0,
+    "multiplier": [
+      0.85,
+      0.9,
+      0.95,
+      1.0,
+      1.05,
+      1.2,
+      1.25,
+      1.3,
+      1.35,
+      1.4,
+      1.45,
+      1.5
+    ],
+    "amenities": [
+      "pool",
+      "wifi",
+      "dumbbell",
+      "silverware-fork-knife"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "636a6ad9ce284ca9a8de9278"
+    },
+    "name": "Hotel Indigo Berlin",
+    "type": "hotel",
+    "city": "berlin",
+    "address": " Hardenbergstr. 15, Charlottenburg-Wilmersdorf, 10623 Berlin, Germany ",
+    "distance": "0",
+    "photos": [
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1667918550/upload/aflvu3uuedt5cqtigxnn.jpg",
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1667918549/upload/rpus3w5ashonwl4grlow.jpg",
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1667918551/upload/q7ow90o2aawfzvoavtat.jpg",
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1667918551/upload/uz32tbkzybdiz2alrwok.jpg",
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1667918548/upload/k4wrtexkcrzpghgr73qc.jpg",
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1667918544/upload/ho1yewv8rdek7k9wuskp.jpg"
+    ],
+    "title": "Stay in the heart of Berlin ",
+    "description": "This 4-star hotel is located in the heart of western Berlin, just 200 m from Zoologischer Garten Train Station. Hotel Indigo Berlin \u2013 Ku\u2019damm offers free WiFi and its own gym.",
+    "rooms": [
+      "636a7a61ce284ca9a8de97ca",
+      "636a7a9bce284ca9a8de97ef"
+    ],
+    "cheapestPrice": 300,
+    "featured": true,
+    "__v": 0,
+    "multiplier": [
+      0.9,
+      0.95,
+      1.0,
+      1.15,
+      1.2,
+      1.25,
+      1.3,
+      1.35,
+      1.4,
+      1.45,
+      1.5,
+      1.55
+    ],
+    "amenities": [
+      "wifi",
+      "spa",
+      "breakfast"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "636a6b68ce284ca9a8de929c"
+    },
+    "name": "Thompson Madrid",
+    "type": "resort",
+    "city": "madrid",
+    "address": "Plaza del Carmen S/N, Centro de Madrid, 28013",
+    "distance": "300",
+    "photos": [
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1667918694/upload/rffof7kim6wkuwokj6jp.jpg",
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1667918694/upload/jdqwfqmdizfscoimczrr.jpg",
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1667918693/upload/vfbzj5asqmlyjniks29j.jpg",
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1667918694/upload/fduyufemvjnb7lkasmql.jpg",
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1667918695/upload/e8dmccn4eqb14iauxvdf.jpg",
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1667918694/upload/xukrpztbowmkwtdctpvw.jpg"
+    ],
+    "title": "The best resort in Madrid",
+    "description": "Thompson Madrid has a restaurant, seasonal outdoor swimming pool, a fitness center and bar in Madrid. Featuring family rooms, this property also provides guests with a sun terrace. The property has a 24-hour front desk, room service and currency exchange for guests.",
+    "rooms": [
+      "636a7bddce284ca9a8de98c3",
+      "636a7c42ce284ca9a8de9920"
+    ],
+    "cheapestPrice": 520,
+    "featured": true,
+    "__v": 0,
+    "multiplier": [
+      0.95,
+      1.0,
+      1.05,
+      1.1,
+      1.15,
+      1.2,
+      1.25,
+      1.3,
+      1.35,
+      1.4,
+      1.45,
+      1.5,
+      1.55,
+      1.6
+    ],
+    "amenities": [
+      "pool",
+      "wifi",
+      "silverware-fork-knife",
+      "briefcase-account"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "636a6c3cce284ca9a8de92c0"
+    },
+    "name": "Aloft Madrid Gran Via",
+    "type": "hotel",
+    "city": "madrid",
+    "address": "Jacometrezo, 4, Centro de Madrid, 28013 ",
+    "distance": "0",
+    "photos": [
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1667918906/upload/gkk3mksoqdqp32exaffb.jpg",
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1667918907/upload/poxuqv6vedzvukj2mosf.jpg",
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1667918906/upload/z7udv9p6y8nvgjm70kgu.jpg",
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1667918907/upload/nyynewmlkvi8znp69k6r.jpg",
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1667918905/upload/yk3cvfqswu3lxueoqtvq.jpg",
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1667918906/upload/ifuwgl7e7gdg12z8cfl1.jpg",
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1667918903/upload/rj4f4mozhjdp9q6nlnh3.jpg"
+    ],
+    "title": "Stay in the heart of Madrid",
+    "description": "Stay comfortable here in Madrid, it as a seasonal outdoor swimming pool, fitness center and free WiFi. The property features a terrace, as well as a bar. The property is located in the city Center, next to Gran Via ",
+    "rooms": [
+      "636a7cd8ce284ca9a8de9979",
+      "636a9b5dce284ca9a8de99ae"
+    ],
+    "cheapestPrice": 230,
+    "featured": false,
+    "__v": 0,
+    "multiplier": [
+      1.0,
+      1.05,
+      1.1,
+      1.15,
+      1.2,
+      1.25,
+      1.4,
+      1.45,
+      1.5,
+      1.55,
+      1.6,
+      1.65
+    ],
+    "amenities": [
+      "spa",
+      "breakfast",
+      "car-parking",
+      "food-apple"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "636a6cfcce284ca9a8de92e8"
+    },
+    "name": "Nobu Hotel London Portman Square",
+    "type": "hotel",
+    "city": "london",
+    "address": " 22 Portman Square, Westminster",
+    "distance": "120",
+    "photos": [
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1667919093/upload/mnsnmuhvolnyb8idp89t.jpg",
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1667919097/upload/qxiyo9y60pdslzg54vrj.jpg",
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1667919091/upload/nd3zj94vjkcezqe3dahz.jpg",
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1667919098/upload/rlbkxs8i8f7kjqb0sw27.jpg",
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1667919090/upload/sg4gmu9dcgxlagwvzkfd.jpg",
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1667919096/upload/obrw3zf3s9cnsx0ypvuh.jpg"
+    ],
+    "title": "Feel London at its best ",
+    "description": "Set in London\u2019s West End, this modern hotel is just a 5-minute walk from Oxford Street and Hyde Park. It offers air-conditioned rooms with free WiFi, a international restaurant, a fitness center and an outdoor terrace.",
+    "rooms": [
+      "636a9eeace284ca9a8de99e5",
+      "636a9f6ace284ca9a8de9a1f"
+    ],
+    "cheapestPrice": 302,
+    "featured": true,
+    "__v": 0,
+    "multiplier": [
+      1.05,
+      1.1,
+      1.15,
+      1.2,
+      1.25,
+      1.4,
+      1.45,
+      1.5,
+      1.55,
+      1.6,
+      1.65,
+      1.7
+    ],
+    "amenities": [
+      "dumbbell",
+      "wifi",
+      "silverware-fork-knife",
+      "briefcase"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "636a7065ce284ca9a8de9357"
+    },
+    "name": "Bell House Apartment",
+    "type": "apartment",
+    "city": "london",
+    "address": "91 Bell Street Westminster",
+    "distance": "200",
+    "photos": [
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1667919970/upload/mx1otyt6v2euoi3zqu9y.jpg",
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1667919967/upload/jxglntgwfa28dxjw69rh.jpg",
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1667919972/upload/cpkgw9j9bmp1nbl0l4vf.jpg",
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1667919970/upload/wnzth3rfhmnqgcokimul.jpg",
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1667919969/upload/m3glixddf94h2i8qxytc.jpg",
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1667919967/upload/kcchs6dwo1tsg0jxqe8w.jpg"
+    ],
+    "title": "Enjoy privacy",
+    "description": "At the hostel, the rooms are equipped with a shared bathroom with a shower.  Guests at Bell House Hostel can enjoy a continental breakfast.",
+    "rooms": [
+      "636a9fc3ce284ca9a8de9a5a",
+      "636a9fe0ce284ca9a8de9a60"
+    ],
+    "cheapestPrice": 75,
+    "featured": false,
+    "__v": 0,
+    "multiplier": [
+      1.1,
+      1.15,
+      1.2,
+      1.25,
+      1.3,
+      1.45,
+      1.5,
+      1.55,
+      1.6,
+      1.65,
+      1.7,
+      1.75
+    ],
+    "amenities": [
+      "pool",
+      "wifi",
+      "breakfast",
+      "dumbbell"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "636a713dce284ca9a8de9390"
+    },
+    "name": "Art Seven Hotel",
+    "type": "hotel",
+    "city": "madrid",
+    "address": "Calle del Conde 154",
+    "distance": "844",
+    "photos": [
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1667920186/upload/haxh4ktyszduoxae2zkv.jpg",
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1667920188/upload/cwhqefkoewgvf9i7fb2j.jpg",
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1667920187/upload/znxzufgurebtaj7t4iqs.jpg",
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1667920188/upload/uld0sx39aesko6g9bwpk.jpg",
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1667920185/upload/owoshtkcrkids0sgotrd.jpg",
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1667920185/upload/nmidtuad2dx8xs9mw359.jpg"
+    ],
+    "title": "Madrid's best option",
+    "description": " provides air-conditioned rooms, a bar, free WiFi and a shared lounge. Popular points of interest nearby include Puerta del Sol, Puerta de Toledo and Gran Via Station Metro Station. The property has a 24-hour front desk, a concierge service and organizing tours for guests.",
+    "rooms": [
+      "636aa052ce284ca9a8de9aa8",
+      "636aa031ce284ca9a8de9aa2"
+    ],
+    "cheapestPrice": 142,
+    "featured": false,
+    "__v": 0,
+    "multiplier": [
+      1.15,
+      1.2,
+      1.25,
+      1.3,
+      1.45,
+      1.5,
+      1.55,
+      1.6,
+      1.65,
+      1.7,
+      1.75,
+      1.8
+    ],
+    "amenities": [
+      "silverware-fork-knife",
+      "briefcase-account",
+      "food-fork-drink"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "636a7254ce284ca9a8de93d0"
+    },
+    "name": "URSO Hotel & Spa",
+    "type": "hotel",
+    "city": "madrid",
+    "address": "Mej\u00eda Lequerica, 8",
+    "distance": "300",
+    "photos": [
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1667920467/upload/qzqliuky5ojy8w9ryg9i.jpg",
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1667920464/upload/x7ekl0y22g4ydzun79ql.jpg",
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1667920465/upload/izyuww15w2lvvhonohtf.jpg",
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1667920463/upload/yibozhzmxosb3jsmwc8o.jpg",
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1667920462/upload/luknivfklzwfyka4otnb.jpg"
+    ],
+    "title": "Madrid's most ecologycal hotel",
+    "description": "Decorated with stylish, designer details, the rooms come with air conditioning, a flat-screen TV and a mini-bar. Each one has a private bathroom equipped with a bath and shower, as well as slippers, bathrobes, toiletries and a hairdryer.",
+    "rooms": [
+      "636aa0a1ce284ca9a8de9af6",
+      "636aa090ce284ca9a8de9af0"
+    ],
+    "cheapestPrice": 100,
+    "featured": false,
+    "__v": 0,
+    "multiplier": [
+      1.2,
+      1.25,
+      1.3,
+      1.35,
+      1.4,
+      1.55,
+      1.6,
+      1.65,
+      1.7,
+      1.75,
+      1.8,
+      1.85
+    ],
+    "amenities": [
+      "spa",
+      "wifi",
+      "briefcase"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "636a747bce284ca9a8de9490"
+    },
+    "name": "Moxy Berlin Ostbahnhof",
+    "type": "hotel",
+    "city": "berlin",
+    "address": "Andreasstrasse 76-78, Friedrichshain-Kreuzberg",
+    "distance": "150",
+    "photos": [
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1667921019/upload/vp5rrev22lxquupaovxn.jpg",
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1667921010/upload/pxs5d15cfmvrr5cncfk0.jpg",
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1667921015/upload/muvhabgckgkvlfstz2do.jpg",
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1667921010/upload/q2yyjudzhptwx4syvfcb.jpg",
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1667921010/upload/bygupo8hgju2lqsntfov.jpg",
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1667921013/upload/bl7nefdwhug5bqzreaom.jpg"
+    ],
+    "title": "Stay in the heart of Berlin",
+    "description": "This stylish new hotel is located close to Berlin's Ostbahnhof train station, just 2 city rail stops from Alexanderplatz. Newly opened in September 2016, the MOXY Berlin Ostbahnhof offers free high-speed WiFi in all areas.",
+    "rooms": [
+      "636aa0d7ce284ca9a8de9b44",
+      "636aa0e7ce284ca9a8de9b4a"
+    ],
+    "cheapestPrice": 320,
+    "featured": false,
+    "__v": 0,
+    "multiplier": [
+      1.25,
+      1.3,
+      1.35,
+      1.4,
+      1.45,
+      1.5,
+      1.55,
+      1.6,
+      1.65,
+      1.8,
+      1.85,
+      1.9
+    ],
+    "amenities": [
+      "wifi",
+      "food-apple",
+      "breakfast",
+      "briefcase-account"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "636a750bce284ca9a8de94c7"
+    },
+    "name": "Intercity Cabin",
+    "type": "cabin",
+    "city": "berlin",
+    "address": "Am Ostbahnhof 5, Friedrichshain",
+    "distance": "300",
+    "photos": [
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1667921159/upload/qxxxhrndhfmew06brc3q.jpg",
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1667921161/upload/vvlbdwtmbvkwzpzvuhha.jpg",
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1667921161/upload/mzepamsaotizc1hwgt8t.jpg",
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1667921161/upload/udy23lzfxjmu9wkoclig.jpg",
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1667921162/upload/zsorxkzdb2zvirtp0uat.jpg",
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1667921160/upload/fhgpbkg1ro32tlydkvdl.jpg"
+    ],
+    "title": "Excellent and most chosen",
+    "description": "Set next to Berlin\u2019s Ostbahnhof railway station, this modern hotel offers convenient access to the East-Side-Gallery, the Mercedes-Benz Arena, and trendy nightlife venues.",
+    "rooms": [
+      "636aa15ace284ca9a8de9bad",
+      "636aa125ce284ca9a8de9ba3",
+      "636aa138ce284ca9a8de9ba8"
+    ],
+    "cheapestPrice": 320,
+    "featured": false,
+    "__v": 0,
+    "multiplier": [
+      1.3,
+      1.35,
+      1.4,
+      1.55,
+      1.6,
+      1.65,
+      1.7,
+      1.75,
+      1.8,
+      1.85,
+      1.9,
+      1.95
+    ],
+    "amenities": [
+      "silverware-fork-knife",
+      "dumbbell",
+      "car-parking",
+      "briefcase"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "636a75ffce284ca9a8de94fe"
+    },
+    "name": "Leigh Cabin London",
+    "type": "cabin",
+    "city": "london",
+    "address": "22 Portman Square, Westminster Borough",
+    "distance": "7000",
+    "photos": [
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1667921394/upload/kdsg7gzeofjmdggdwlb0.jpg",
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1667921392/upload/j76pcczrqxjjugxl5qsn.jpg",
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1667921395/upload/kmnelycxrmp5fyxgtskf.jpg",
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1667921400/upload/q1y6yp3l6gnzlvncj9ro.jpg",
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1667921398/upload/xkyjbdj024trbw1o6agl.jpg",
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1667921406/upload/mj4pkfmhhmuawzioiadn.jpg"
+    ],
+    "title": "Feel warm ",
+    "description": "This is gonna be the best experience you will have, connect with nature and feel amazing",
+    "rooms": [
+      "636aa1b9ce284ca9a8de9c06",
+      "636aa20bce284ca9a8de9d12"
+    ],
+    "cheapestPrice": 140,
+    "featured": false,
+    "__v": 0,
+    "multiplier": [
+      1.35,
+      1.4,
+      1.55,
+      1.6,
+      1.65,
+      1.7,
+      1.75,
+      1.8,
+      1.85,
+      1.9,
+      1.95,
+      1.0
+    ],
+    "amenities": [
+      "spa",
+      "wifi",
+      "food-apple",
+      "breakfast"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "636a769cce284ca9a8de9537"
+    },
+    "name": "The Leonard Hotel",
+    "type": "hotel",
+    "city": "london",
+    "address": "15 Seymour Street, Westminster Borough",
+    "distance": "300",
+    "photos": [
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1667921563/upload/frjs2lfsuq2gm6unwjvv.jpg",
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1667921563/upload/y6w8navgsyzrwcdubwsb.jpg",
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1667921563/upload/mw7ijxxvjfh2fw9mfyf5.jpg",
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1667921563/upload/a6d7wbtbs4y8wp77gazw.jpg",
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1667921563/upload/e6k3n9nqkyhhcz6b4jkh.jpg",
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1667921563/upload/bqaq8d0fhwkgakakmecs.jpg"
+    ],
+    "title": "Stay in the heart of London",
+    "description": "his elegant 4-star London hotel has a classic English d\u00e9cor and traditional English cuisine. It is only a 3-minute walk from Oxford Street, Hyde Park, and Marble Arch Tube station.",
+    "rooms": [
+      "636aa24fce284ca9a8de9d6f",
+      "636aa271ce284ca9a8de9d75"
+    ],
+    "cheapestPrice": 112,
+    "featured": false,
+    "__v": 0,
+    "multiplier": [
+      1.4,
+      1.45,
+      1.5,
+      1.55,
+      1.7,
+      1.75,
+      1.8,
+      1.85,
+      1.9,
+      1.95,
+      1.0,
+      1.05
+    ],
+    "amenities": [
+      "pool",
+      "silverware-fork-knife",
+      "dumbbell"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "636d3996402abaf3f7a747bc"
+    },
+    "name": "Silvio Hotel",
+    "type": "apartment",
+    "city": "london",
+    "address": "calle 23 dasddsa",
+    "distance": "200",
+    "photos": [
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1668102547/upload/ospowfeyy44ahqp9ncjt.jpg",
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1668102548/upload/rlwowoqh2s5xhinsgz7n.jpg",
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1668102548/upload/lzo8jr9dufbgxvmqhlto.jpg",
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1668102544/upload/gbjharkpkbcvs9shtn1v.jpg",
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1668102549/upload/a5suclh4hqskeo1kcuqp.jpg",
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1668102543/upload/wthy9taqgufop5tomhex.jpg",
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1668102543/upload/xiegfyuxv91srh5ielxt.jpg"
+    ],
+    "title": "Silvio mono",
+    "description": "aca en las toninas",
+    "rooms": [
+      "635829e1dd1efc32febd7cfe",
+      "63695efc7ae7064b5e53342f"
+    ],
+    "cheapestPrice": 20,
+    "featured": false,
+    "__v": 0,
+    "multiplier": [
+      1.45,
+      1.5,
+      1.55,
+      1.6,
+      1.65,
+      1.7,
+      1.75,
+      1.8,
+      1.95,
+      1.0,
+      1.05,
+      1.1
+    ],
+    "amenities": [
+      "car-parking",
+      "wifi",
+      "food-apple",
+      "briefcase-account"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "636d39a1402abaf3f7a747c0"
+    },
+    "name": "Silvio Hotel",
+    "type": "apartment",
+    "city": "london",
+    "address": "calle 23 dasddsa",
+    "distance": "200",
+    "photos": [
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1668102557/upload/rtpqn5hsqciavfx0okt2.jpg",
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1668102554/upload/ej47oorbwqqpettot8xa.jpg",
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1668102554/upload/b1q05owhvcl3jirqgjsh.jpg",
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1668102549/upload/djycrr37zwf7ja1xzckr.jpg",
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1668102559/upload/opv6hogi4ildpmamw8yy.jpg",
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1668102554/upload/p4eo3gml6svh0itvltyy.jpg",
+      "http://res.cloudinary.com/dr4iesryu/image/upload/v1668102552/upload/vw2jo14olfl9pmfl9hdu.jpg"
+    ],
+    "title": "Silvio mono",
+    "description": "aca en las toninas",
+    "rooms": [
+      "635829e1dd1efc32febd7cfe",
+      "63695efc7ae7064b5e53342f"
+    ],
+    "cheapestPrice": 20,
+    "featured": false,
+    "__v": 0,
+    "multiplier": [
+      1.5,
+      1.55,
+      1.6,
+      1.75,
+      1.8,
+      1.85,
+      1.9,
+      1.95,
+      1.0,
+      1.05,
+      1.1,
+      1.15
+    ],
+    "amenities": [
+      "silverware-fork-knife",
+      "briefcase",
+      "wifi",
+      "food-apple"
+    ]
+  }
+]
