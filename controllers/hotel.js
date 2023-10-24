@@ -105,3 +105,24 @@ export const getHotelRooms = async (req, res, next) => {
     next(err);
   }
 }
+
+export const addComment = async (req, res, next) => {
+  try {
+    const hotelId = req.params.id;
+    const { name, rating, text } = req.body;
+
+    const hotel = await Hotel.findById(hotelId);
+
+    if (!hotel) {
+      return res.status(404).json({ message: 'Hotel not found' });
+    }
+    const newReview = `${name}.${rating}.${text}.`;
+    hotel.comments += newReview;
+
+    await hotel.save();
+
+    res.status(200).json({ message: 'Review added successfully' });
+  } catch (error) {
+    next(err)
+  }
+}

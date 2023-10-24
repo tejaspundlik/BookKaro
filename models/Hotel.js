@@ -52,6 +52,9 @@ const HotelSchema = new mongoose.Schema({
   },
   multiplier: {
     type: [Number]
+  },
+  comments: {
+    type: [String]
   }
 });
 

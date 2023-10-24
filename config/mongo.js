@@ -3,7 +3,7 @@ import dotenv from "dotenv";
 dotenv.config()
 
 const connection = async () => {
-    const mongoURL = `${process.env.MONGO}/bookkaro`;
+    const mongoURL = process.env.MONGO;
     await mongoose.connect(mongoURL, { useNewUrlParser: true, useUnifiedTopology: true })
         .then(() => {
             console.log('Connected to MongoDB');
