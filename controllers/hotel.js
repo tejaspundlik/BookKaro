@@ -116,13 +116,18 @@ export const addComment = async (req, res, next) => {
     if (!hotel) {
       return res.status(404).json({ message: 'Hotel not found' });
     }
-    const newReview = `${name}.${rating}.${text}.`;
-    hotel.comments += newReview;
+
+    // Create a new review string in the format "name.rating.text"
+    const newReview = `${name}.${rating}.${text}`;
+
+    // Push the new review string to the comments array of the hotel
+    hotel.comments.push(newReview);
 
     await hotel.save();
 
     res.status(200).json({ message: 'Review added successfully' });
   } catch (error) {
-    next(err)
+    next(err);
   }
 }
+
