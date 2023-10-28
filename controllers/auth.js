@@ -7,7 +7,7 @@ export const register = async (req, res, next) => {
   try {
     const salt = bcrypt.genSaltSync(10);
     const hash = bcrypt.hashSync(req.body.password, salt);
-    console.log(req.body)
+    console.log(req.body.email, req.body.password, req.body.phone)
     const newUser = new User({
       email: req.body.email,
       phone: req.body.phone,
