@@ -19,7 +19,6 @@ export const register = async (req, res, next) => {
   }
 };
 
-
 export const login = async (req, res, next) => {
   try {
     console.log(req.body)
@@ -45,6 +44,32 @@ export const login = async (req, res, next) => {
       })
       .status(200)
       .json({ details: { ...otherDetails }, isAdmin });
+  } catch (err) {
+    next(err);
+  }
+};
+
+export const resetPassword = async (req, res, next) => {
+  try {
+    const { email, phone, newPassword } = req.body;
+
+    const emailSearch = await User.findOne({ email });
+    if (!emailSearch) {
+      return next(createError(404, "User not found!"));
+    }
+    const emailPhone = await User.findOne({ email, phone });
+    if (!emailPhone) {
+      return next(createError(404, "Email and Phone Don't Match!"));
+    }
+
+
+    const salt = bcrypt.genSaltSync(10);
+    const hash = bcrypt.hashSync(newPassword, salt);
+
+    user.password = hash;
+    await user.save();
+
+    res.status(200).send("Password has been reset.");
   } catch (err) {
     next(err);
   }
