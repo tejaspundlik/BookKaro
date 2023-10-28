@@ -55,26 +55,27 @@ export const resetPassword = async (req, res, next) => {
     const email = req.body.email
     const phone = req.body.phone
     const newPassword = req.body.password
-
+    console.log("Reached before email search")
     const emailSearch = await User.findOne({ email });
-
+    console.log("Reached after email search")
     if (!emailSearch) {
       return next(createError(404, "User not found!"));
     }
+    console.log("Reached before email phone search")
     const emailPhone = await User.findOne({ email, phone });
-
+    console.log("Reached after email phone search")
     if (!emailPhone) {
       return next(createError(404, "Email and Phone Don't Match!"));
     }
 
-
+    console.log("generate password")
     const salt = bcrypt.genSaltSync(10);
     const hash = bcrypt.hashSync(newPassword, salt);
     const user = await User.findOne({ email, phone });
     user.password = hash;
-
+    console.log("generate password saving")
     await user.save();
-
+    console.log("after saving")
     res.status(200).send("Password has been reset.");
 
   } catch (err) {
