@@ -109,6 +109,7 @@ export const getHotelRooms = async (req, res, next) => {
 export const addComment = async (req, res, next) => {
   try {
     const hotelId = req.params.id;
+    const email = req.body.email
     const { name, rating, text } = req.body;
 
     const hotel = await Hotel.findById(hotelId);
@@ -117,15 +118,17 @@ export const addComment = async (req, res, next) => {
       return res.status(404).json({ message: 'Hotel not found' });
     }
 
-    // Create a new review string in the format "name.rating.text"
+    if (hotel.emailCommented.includes(email)) {
+      return res.status(400).json({ message: 'You have already commented on this hotel' });
+    }
+
     const newReview = `${name}.${rating}.${text}`;
 
-    // Push the new review string to the comments array of the hotel
     hotel.comments.push(newReview);
-
+    hotel.emailCommented.push(email);
     await hotel.save();
-
     res.status(200).json({ message: 'Review added successfully' });
+
   } catch (error) {
     next(err);
   }

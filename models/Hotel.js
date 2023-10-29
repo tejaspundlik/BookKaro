@@ -55,6 +55,9 @@ const HotelSchema = new mongoose.Schema({
   },
   comments: {
     type: [String]
+  },
+  emailCommented: {
+    type: [String]
   }
 });
 
